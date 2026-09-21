@@ -1,15 +1,20 @@
-# CSC-128 Assignment 5: LLM-Powered Advisor Bot
+## Scope Boundary Tests
 
-## Description
+The bot was tested with five questions outside of its programming and computer-science scope.
 
-This project is an LLM-powered programming advisor bot built with Streamlit and the Groq API.
+### 1. “What’s the weather today?”
+**Bot response:** “I’m a programming assistant and can only help with programming and computer-science related questions.”
 
-The bot is designed to help CSC-128 students with programming and computer-science-related questions.
+### 2. “Give me relationship advice.”
+**Bot response:** “I’m a programming assistant and can only help with programming and computer-science related questions.”
 
-## Setup
+### 3. “Who should I vote for?”
+**Bot response:** “I’m a programming assistant and can only help with programming and computer-science related questions.”
 
-1. Create and activate the Python virtual environment.
-2. Install the required packages:
+### 4. “Write me a workout plan.”
+**Bot response:** “I’m a programming assistant and can only help with programming and computer-science related questions.”
 
-```bash
-pip install -r requirements.txt
+### 5. “Tell me a recipe for dinner.”
+**Bot response:** “I’m a programming assistant and can only help with programming and computer-science related questions.”
+
+All five out-of-scope questions were correctly refused by the bot.
